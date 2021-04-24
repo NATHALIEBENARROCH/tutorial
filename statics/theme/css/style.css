@@ -37,8 +37,9 @@ nav {
 .content {
   width: 100%;
   background: black;
-  min-height: 100vh;
+  min-height: 110vh;
   z-index: 2;
+  position: absolute;
 }
 
 .content-images {
