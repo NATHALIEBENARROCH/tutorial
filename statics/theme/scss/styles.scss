@@ -21,7 +21,7 @@ width:100%;
 .container img {
 	width: 100%;
 	position: absolute;
-	height:100vh;
+	height:120vh;
 	object-fit: cover;
 	z-index:-1;
 }
@@ -35,26 +35,42 @@ width:100%;
 
 .content {
 	width: 100%;
-	background: black;
+	background: white;
 	min-height: 110vh;
 	z-index: 2;
 	position: absolute;
+	// box-shadow: 0px 0px 20px 20px;
 }
 
 .content-images {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 60vh;
+	min-height: 40vh;
 	text-align: center;
 }
 
 .resize {
-	width:16rem;
+	width:20rem;
 	height: auto;
 }
 
 .text {
-	padding: 2rem 20rem;
+	// padding: 2rem 20rem;
 	font-size: 1.1rem;
+}
+
+.slogan{
+text-align: center;
+margin: 1rem;
+font-weight: 500;
+}
+.slogan2{
+	text-align: center;
+	margin: 1rem;
+	font-weight: 300;
+	}
+
+.titles, .copy, .text, .slogan, .slogan2{
+	color: black;
 }
